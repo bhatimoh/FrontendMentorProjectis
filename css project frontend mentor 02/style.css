@@ -21,8 +21,9 @@ body {
 }
 .container {
   padding-top: 10px;
-  width: 340px;
+  max-width: 340px;
   margin: 20px auto;
+  margin-bottom: 0;
   border-radius: 16px;
   border: 1px solid transparent;
   background-color: hsl(216, 50%, 16%);
