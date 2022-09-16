@@ -1,0 +1,140 @@
+/* JAI HINDI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  /* background: linear-gradient(orange, white, green); */
+
+  /* background: radial-gradient(orange, white, green); */
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  padding-top: 10px;
+  width: 340px;
+  margin: 20px auto;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 10px 10px 20px black;
+}
+.main_img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 16px;
+  margin: 16px auto;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.1;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+.head h2 span {
+  margin-left: 5px;
+}
+.head {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.content {
+  margin: 20px auto;
+  width: 300px;
+  color: hsl(215, 51%, 70%);
+}
+/* hover efftect */
+.imgcon {
+  position: relative;
+  cursor: pointer;
+}
+.icon-hov {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 16px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: 0.5s ease;
+  background-color: cyan;
+}
+.imgcon:hover .overlay {
+  opacity: 0.6;
+}
+/* hover effect */
+.content p {
+  font-weight: 300;
+  font-size: 18px;
+}
+.imptag {
+  padding: 20px 0;
+  padding-bottom: 0px;
+  font-weight: 600;
+  color: cyan;
+  display: flex;
+  justify-content: space-between;
+}
+.about_img {
+  display: block;
+  height: 32px;
+  width: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.author {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  gap: 10px;
+  width: 300px;
+  margin: 20px auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px solid hsl(215, 32%, 27%);
+}
+.author span {
+  align-self: center;
+}
+.creator {
+  color: white;
+}
+.creator:hover {
+  color: cyan;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hov:hover {
+  color: cyan;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo {
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}
+.logo-2 {
+  margin-right: 4px;
+}
